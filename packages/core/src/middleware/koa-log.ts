@@ -82,8 +82,10 @@ export default function koaLog<
   return async (ctx, next) => {
     const {
       ip,
+      ips,
       headers: { 'user-agent': userAgent },
     } = ctx.request;
+    console.log('=======ips:==========', ips);
 
     const logger = initLogger({ result: LogResult.Success, ip, userAgent });
     ctx.addLogContext = logger.set;
