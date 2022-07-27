@@ -912,6 +912,7 @@ importers:
       '@logto/connector-facebook': ^1.0.0-beta.2
       '@logto/connector-github': ^1.0.0-beta.2
       '@logto/connector-google': ^1.0.0-beta.2
+      '@logto/connector-mock-social': ^1.0.0-beta.2
       '@logto/connector-sendgrid-email': ^1.0.0-beta.2
       '@logto/connector-smtp': ^1.0.0-beta.2
       '@logto/connector-twilio-sms': ^1.0.0-beta.2
